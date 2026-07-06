@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gute-Nacht-Geschichten mit Johnny</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="painted-checks" aria-hidden="true"></div>
+  <div class="floating-stars" aria-hidden="true">
+    <span class="spark s1">✦</span>
+    <span class="spark s2">✦</span>
+    <span class="spark s3">✦</span>
+    <span class="spark s4">✦</span>
+    <span class="spark s5">✦</span>
+  </div>
+
+  <main class="app">
+    <header class="hero">
+      <div class="portrait-ring">
+        <img src="images/johnny.jpg" alt="Johnny" class="portrait" />
+      </div>
+
+      <div class="pill">zum Anhören & Herunterladen</div>
+
+      <h1>
+        <span>Gute-Nacht-</span>
+        <span>Geschichten</span>
+      </h1>
+      <p class="subtitle">mit Johnny</p>
+
+      <div class="scribble-star hero-star" aria-hidden="true">
+        <span>★</span>
+      </div>
+    </header>
+
+    <section class="stories" id="stories">
+      <!-- Die Geschichten werden aus stories.js geladen -->
+    </section>
+
+    <footer class="footer">
+      <span class="moon">☾</span>
+      Ich wünsche dir ganz süße Träume und eine gute Nacht! 💛
+    </footer>
+  </main>
+
+  <script src="stories.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
