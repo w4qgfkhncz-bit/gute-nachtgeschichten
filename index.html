@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gute-Nacht-Geschichten</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="paint-grid"></div>
+  <main class="page">
+    <section class="hero">
+      <div class="floating-star star-a">✦</div>
+      <div class="floating-star star-b">✦</div>
+      <div class="floating-star star-c">✦</div>
+
+      <div class="portrait-frame">
+        <img src="images/johnny.jpg" alt="Johnny" class="portrait" />
+      </div>
+
+      <p class="eyebrow">zum Anhören & Herunterladen</p>
+      <h1>Gute-Nacht-<br>Geschichten</h1>
+      <p class="subtitle">mit Johnny</p>
+    </section>
+
+    <section class="stories" aria-label="Audiodateien">
+      <article class="story-card">
+        <div class="story-star">✦</div>
+        <div class="story-main">
+          <p class="story-number">Geschichte 1</p>
+          <h2>Der kleine Fuchs</h2>
+          <button class="play-button" data-audio="audio/geschichte-1.mp3">▶ Abspielen</button>
+          <audio src="audio/geschichte-1.mp3"></audio>
+        </div>
+        <a class="download-button" href="audio/geschichte-1.mp3" download>Download</a>
+      </article>
+
+      <article class="story-card">
+        <div class="story-star">✦</div>
+        <div class="story-main">
+          <p class="story-number">Geschichte 2</p>
+          <h2>Der Mond über Stuttgart</h2>
+          <button class="play-button" data-audio="audio/geschichte-2.mp3">▶ Abspielen</button>
+          <audio src="audio/geschichte-2.mp3"></audio>
+        </div>
+        <a class="download-button" href="audio/geschichte-2.mp3" download>Download</a>
+      </article>
+
+      <article class="story-card">
+        <div class="story-star">✦</div>
+        <div class="story-main">
+          <p class="story-number">Geschichte 3</p>
+          <h2>Der mutige Igel</h2>
+          <button class="play-button" data-audio="audio/geschichte-3.mp3">▶ Abspielen</button>
+          <audio src="audio/geschichte-3.mp3"></audio>
+        </div>
+        <a class="download-button" href="audio/geschichte-3.mp3" download>Download</a>
+      </article>
+    </section>
+
+    <footer>
+      Schlaf gut und träum was Schönes ✦
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
